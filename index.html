@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="main-todo">
+        <h2>ToDoList App</h2>
+        <div class="todo-input">
+          <input id="todo" type="text" />
+          <button title="Add ToDo" id="addBtn" class="btn">
+            <i class="fa-solid fa-plus"></i>
+          </button>
+          <button title="Hide Done List" id="hideBtn" class="btn"><i class="fa-solid fa-eye-slash"></i></button>
+
+        </div>
+        <ul id="todoList" class="todo-tasks">
+          
+        </ul>
+
+        <div id="doneTaskContainer">
+        <div id="doneHeader">
+            <h5>Done List</h5>
+        </div>
+
+            <ul id="doneList" class="done-tasks">
+            </ul>
+        </div>
+     
+      </div>
+    </div>
+
+    <script src="./assets/todo.js"></script>
+  </body>
+</html>
